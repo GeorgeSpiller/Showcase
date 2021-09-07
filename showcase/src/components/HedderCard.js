@@ -1,11 +1,13 @@
-
+import FadeInSection from "./FadeInComponent";
 
 
 function HeaderCard() {
     return(
         <div className="title">
             <section>
-                <h1>Welcome</h1>
+                <FadeInSection>
+                    <h1>Welcome</h1>
+                </FadeInSection>
             </section>
         </div>
     );

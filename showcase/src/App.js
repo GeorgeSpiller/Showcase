@@ -1,12 +1,11 @@
 import HeaderCard from './components/HedderCard';
-import CurvedDivider from './components/CurvedDivider';
+import DividerRedWaves from './components/Divider-RedWaves';
 
 function App() {
   return(
   <div>
       <HeaderCard />
-      <CurvedDivider />
-      <p className="boarder"> TEST  </p>
+      <DividerRedWaves />
    </div> 
   );
 }

@@ -1,10 +1,10 @@
 
 
-function CurvedDivider() {
+function DividerRedWaves() {
 
     return(
         <div class="spacer layer1"></div>
     );
 }
 
-export default CurvedDivider;
+export default DividerRedWaves;
