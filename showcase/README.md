@@ -1,4 +1,23 @@
-# Getting Started with Create React App
+# Showcase Website
+This project was started with the goal of presenting some of my favorite projects in an engaging way. It is made using the React framework, with react-three-fiber helping with some design features (the 3D enviroments). 
+
+### Getting started 
+To start the website, you will need nodejs, simply open this directory in the terminal and run:
+### `npm start`
+
+### Projects listed
+There are a few projects planned to be listed here, as it stands the plan is to include:
+- This React website itself.
+- Maze Generation Python Scripts
+- Misc projects (Twitch Bot + Portal 2 Stream interaction, A51 GIF Production)
+
+### Github
+All the projects mentioned in this website are featured on my GitHub, where you can also find other misc projects.
+
+`https://github.com/GeorgeSpiller?tab=repositories`
+
+#
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
