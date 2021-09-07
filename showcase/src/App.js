@@ -1,7 +1,13 @@
+import HeaderCard from './components/HedderCard';
+import CurvedDivider from './components/CurvedDivider';
 
 function App() {
   return(
-    <div>Init App</div>
+  <div>
+      <HeaderCard />
+      <CurvedDivider />
+      <p className="boarder"> TEST  </p>
+   </div> 
   );
 }
 
