@@ -1,12 +1,12 @@
 import FadeInSection from "./FadeInComponent";
 
 
-function HeaderCard() {
+function HeaderCard(props) {
     return(
         <div className="title">
             <section>
                 <FadeInSection>
-                    <h1>Welcome</h1>
+                    <h1>{props.text}</h1>
                 </FadeInSection>
             </section>
         </div>

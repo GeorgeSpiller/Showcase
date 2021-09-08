@@ -3,7 +3,7 @@
 function DividerRedWaves() {
 
     return(
-        <div class="spacer layer1"></div>
+        <div className="spacer layer1"></div>
     );
 }
 
