@@ -22,6 +22,7 @@ canvas {
 
 .baorder {
   border-style: solid;
+  border-color: lawngreen;
 }
 
 .spacer {
@@ -37,12 +38,13 @@ canvas {
 }
 
 .title {
-  font-family: Consolas; 
+  font-family: 'Ubuntu', sans-serif; 
   font-size: 24px;
   font-style: normal;
   font-variant: normal;
   font-weight: 700;
-  line-height: 26.4px; 
+  line-height: 26.4px;
+
 
   text-align: center;
   width: 100%;
@@ -58,8 +60,32 @@ canvas {
   transition: opacity 0.6s ease-out, transform 1.2s ease-out;
   will-change: opacity, visibility;
 }
+
 .fade-in-section.is-visible {
   opacity: 1;
   transform: none;
   visibility: visible;
+}
+
+.ProjectCard{
+  font-family: 'Ubuntu', sans-serif; 
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  text-align: center;
+  
+  display: table-row;
+  height: 500px;
+}
+
+.ProjectCard_Title{
+  width: 50%;
+  display: table-cell;
+  vertical-align: middle
+}
+
+.ProjectCard_Description {
+  display: table-cell;
+  padding: 20px;
 }

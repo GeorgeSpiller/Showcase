@@ -9,8 +9,8 @@ function App() {
   const { height, width } = useWindowDimensions();
   return(
       <Scrollbars style={{ width: width, height: height }}>
-        <HeaderCard text="Welcome"/>
-          <DividerRedWaves />
+        <HeaderCard text="Welcome"  letterSpacing="10px"/>
+        <DividerRedWaves />
         <CanvasEnv />
       </Scrollbars>
   );
