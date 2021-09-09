@@ -15,22 +15,15 @@ const CameraControls = () => {
     const {    camera,    gl: { domElement },  } = useThree();  
     // Ref to the controls, so that we can update them on every frame using useFrame  
     const controls = useRef();  
-    useFrame((state) => controls.current.update());  
+    useFrame((state, delta) => controls.current.update());  
     return <orbitControls 
         ref={controls} 
         args={[camera, domElement]} 
         enableZoom={false} 
         autoRotate={true}
-        target={[0, 0, 0]}     
+        target={[0, 0, 0]}    
         />;
 };
-
-
-// maxAzimuthAngle={Math.PI / 4}      
-// maxPolarAngle={Math.PI}      
-// minAzimuthAngle={-Math.PI / 4}      
-// minPolarAngle={0}
-
 
 function CanvasWelcome(props) {
 
@@ -55,11 +48,11 @@ function CanvasWelcome(props) {
             <CameraControls />
             {Icosahedrons}
             <UbuntuFontMesh text={props.text} position={props.position}/>
-            <Box position={[-1.2, 0, 0]} />
-            <Box position={[1.2, 0, 0]} />
+
         </Canvas>
     </div>
     );
 }
+
 
 export default CanvasWelcome;
