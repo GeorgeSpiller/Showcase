@@ -10,7 +10,7 @@ function App() {
   return(
       <Scrollbars style={{ width: width, height: height }}>
         
-        <CanvasWelcome />
+        <CanvasWelcome IcosahedronAmount={20} />
                 
         <DividerRedWaves />
         
