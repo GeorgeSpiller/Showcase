@@ -1,20 +1,22 @@
-import HeaderCard from './components/HedderCard';
+//import HeaderCard from './components/HedderCard';
 import DividerRedWaves from './components/Divider-RedWaves';
-import CanvasEnv from './components/three-js-components/canvas';
 import { Scrollbars } from 'react-custom-scrollbars';
 import useWindowDimensions from './components/WindowDimentions';
+import CanvasWelcome from './components/three-js-components/CanvasWelcome';
 
 
 function App() {
   const { height, width } = useWindowDimensions();
   return(
       <Scrollbars style={{ width: width, height: height }}>
-        <HeaderCard text="Welcome"  letterSpacing="10px"/>
+        
+        <CanvasWelcome text="Welcome" position={[-3, 0, 0]} />
+                
         <DividerRedWaves />
-        <CanvasEnv />
+        
       </Scrollbars>
   );
 }
 
-
+// <HeaderCard text="Welcome"  letterSpacing="10px"/>
 export default App;

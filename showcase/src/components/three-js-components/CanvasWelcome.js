@@ -1,12 +1,13 @@
 import React from 'react'
 import { Canvas } from '@react-three/fiber'
 import Box from './Box';
+import UbuntuFontMesh from './UbuntuFont';
 
-
-function CanvasEnv() {
+function CanvasWelcome(props) {
     return (  
-    <div style={{backgroundColor: "#001220", margin:"-1px"}}>   
+    <div style={{backgroundColor: "#C62368", margin:"-1px"}}>
         <Canvas >
+            <UbuntuFontMesh text={props.text} position={props.position}/>
             <ambientLight />
             <pointLight position={[10, 10, 10]} />
             <Box position={[-1.2, 0, 0]} />
@@ -16,4 +17,4 @@ function CanvasEnv() {
     );
 }
 
-export default CanvasEnv;
+export default CanvasWelcome;
