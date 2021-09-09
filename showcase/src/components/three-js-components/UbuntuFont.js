@@ -4,6 +4,8 @@ import * as THREE from 'three';
 import Ubuntu from '../resources/Ubuntu_Bold.json';
 
 export default function UbuntuFontMesh(props) {
+
+
     // parse JSON file with Three
     const font = new THREE.FontLoader().parse(Ubuntu);
 
@@ -30,5 +32,5 @@ UbuntuFontMesh.propTypes = {
 
 UbuntuFontMesh.defaultProps = {
     text: 'Welcome',
-    position: [0, 0, 0],
+    position: [-3, 0, 0],
 };

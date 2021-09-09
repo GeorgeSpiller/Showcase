@@ -10,7 +10,7 @@ function App() {
   return(
       <Scrollbars style={{ width: width, height: height }}>
         
-        <CanvasWelcome text="Welcome" position={[-3, 0, 0]} />
+        <CanvasWelcome />
                 
         <DividerRedWaves />
         
