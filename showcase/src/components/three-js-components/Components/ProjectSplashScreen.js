@@ -1,7 +1,6 @@
 import React, { useRef, useState } from 'react';
 import { useFrame } from '@react-three/fiber';
 
-
 export default function ProjectSplashScreen(props) {
     // This reference will give us direct access to the THREE.Mesh object
     const ref = useRef()

@@ -1,9 +1,9 @@
 import React from 'react'
 import { Canvas } from '@react-three/fiber'
-import Box from './Box';
-import UbuntuFontMesh from './UbuntuFont';
-import Icosahedron  from './Icosahedron';
-import StandardCameraControls from './StandaredCameraControls';
+import Box from './Components/Box';
+import UbuntuFontMesh from './Components/UbuntuFont';
+import Icosahedron  from './Components/Icosahedron';
+import StandardCameraControls from './Components/StandaredCameraControls';
 
 export default function CanvasWelcome(props) {
 
@@ -23,9 +23,9 @@ export default function CanvasWelcome(props) {
     return (  
     <div style={{backgroundColor: "#C62368", margin:"-1px"}}>
         <Canvas >
-            <ambientLight />
+            <ambientLight intensity={0.8}/>
             <pointLight position={[10, 10, 10]} />
-
+            
             <StandardCameraControls 
                     enableZoom={false} 
                     autoRotate={true}

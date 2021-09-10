@@ -67,25 +67,7 @@ canvas {
   visibility: visible;
 }
 
-.ProjectCard{
-  font-family: 'Ubuntu', sans-serif; 
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 700;
-  line-height: 26.4px;
-  text-align: center;
-  
-  display: table-row;
-  height: 500px;
-}
-
-.ProjectCard_Title{
-  width: 50%;
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.ProjectCard_Description {
-  display: table-cell;
-  padding: 20px;
+.CanvasProjectsDiv{
+  background-color: #ffcac6;
+  margin: 0px;
 }

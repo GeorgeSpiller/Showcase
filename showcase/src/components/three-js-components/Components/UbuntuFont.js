@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import * as THREE from 'three';
-import Ubuntu from '../resources/Ubuntu_Bold.json';
+import Ubuntu from '../../resources/Ubuntu_Bold.json';
 
 export default function UbuntuFontMesh(props) {
 
