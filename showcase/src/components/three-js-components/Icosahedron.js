@@ -2,23 +2,21 @@ import React, { useRef, useState } from 'react'
 import { useFrame } from '@react-three/fiber'
 
 
-function Iconsahedron(props) {
+export default function Iconsahedron(props) {
     // This reference will give us direct access to the THREE.Mesh object
     const ref = useRef()
     const [hovered, setHover] = useState(false)
-
+    // animate random rotation speeds
     const xRotSpeed = Math.random() / 100;
     const yRotSpeed = Math.random() / 100;
     const zRotSpeed = Math.random() / 100;
 
-    
-
-    useFrame((state, delta) => {
+    // animation loop
+    useFrame(() => {
         // rotations
         ref.current.rotation.x += xRotSpeed;
         ref.current.rotation.y += yRotSpeed;
         ref.current.rotation.z += zRotSpeed; 
-
     })
 
     return (
@@ -33,5 +31,3 @@ function Iconsahedron(props) {
       </mesh>
     )
   }
-
-export default Iconsahedron;

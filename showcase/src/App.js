@@ -1,4 +1,3 @@
-//import HeaderCard from './components/HedderCard';
 import DividerRedWaves from './components/Divider-RedWaves';
 import { Scrollbars } from 'react-custom-scrollbars';
 import useWindowDimensions from './components/WindowDimentions';
@@ -18,5 +17,4 @@ function App() {
   );
 }
 
-// <HeaderCard text="Welcome"  letterSpacing="10px"/>
 export default App;

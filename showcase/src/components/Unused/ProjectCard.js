@@ -1,4 +1,4 @@
-import FadeInSection from "./FadeInComponent";
+import FadeInSection from "../FadeInComponent";
 
 function ProjectCard(){
 

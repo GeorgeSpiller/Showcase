@@ -1,9 +1,8 @@
-import FadeInSection from "./FadeInComponent";
+import FadeInSection from "../FadeInComponent";
 import PropTypes from 'prop-types';
 
 
-function HeaderCard(props) {
-
+export default function HeaderCard(props) {
     return(
         <div className="title" style={{letterSpacing: props.letterSpacing}}>
             <section>
@@ -22,5 +21,3 @@ HeaderCard.propTypes = {
 HeaderCard.defaultProps = {
     letterSpacing: '10px'
 };
-
-export default HeaderCard;
