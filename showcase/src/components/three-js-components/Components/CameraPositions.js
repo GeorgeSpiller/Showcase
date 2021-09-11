@@ -1,12 +1,14 @@
 
-const p1_position = [20, 0, 30]
-const p1_target = [20, 0, 0]
+import { Vector3 } from 'three';
 
-const p2_position = [0, 0, -20]
-const p2_target = [-16, 0, 0]
+const p1_position = new Vector3(20, 0, 30)
+const p1_target = new Vector3(20, 0, 0)
 
-const p3_position = [0, 20, 20]
-const p3_target = [0, 20, 0]
+const p2_position = new Vector3(0, 0, -20)
+const p2_target = new Vector3(-16, 0, 0)
+
+const p3_position = new Vector3(0, 20, 20)
+const p3_target = new Vector3(0, 20, 0)
 
 
 export {
