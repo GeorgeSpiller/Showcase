@@ -11,7 +11,7 @@ const NUMBER_OF_PROJECTS = 2
 export default function CanvasProjects() {
 
     
-    const [projectNumber, setProjectNumber] = useState(0);
+    const [projectNumber, setProjectNumber] = useState(1);
 
     return (  
     <Suspense fallback={<div className="spinner-border"></div>}>
@@ -21,7 +21,9 @@ export default function CanvasProjects() {
                     setProjectNumber(1);
                } 
             }}>
-            <Canvas >
+            <Canvas 
+            // camera={{position: [20, 0, 20]}}
+            >
                 <StandardCameraControls 
                         enableZoom={false} 
                         autoRotate={false}
