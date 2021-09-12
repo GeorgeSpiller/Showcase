@@ -23,7 +23,7 @@ const projectThree = {
     p1_title_position: [-45, 20, -10],
     p1_title_size: 10, 
     
-    p1_body_message:"The goal of this project was to create an interface\nbetween Twitch chat (viewers of a Twitch Liverstream)\nand the game console of Portal 2 (by Valve). It allows\nfor people to type commands in Twitch chat, which would\nthen be picked up by a bot using Twitch's API. This command\nwould then be replaced by its source development console\nequivilent, and executed in the game enviroment through an\nopen telnet server.\nGithub: GeorgeSpiller/Portal2TwitchBot", 
+    p1_body_message:"The goal of this project was to create an interface\nbetween Twitch chat (viewers of a Twitch Liverstream)\nand the game console of Portal 2 (by Valve). It allows\nfor people to type commands in Twitch chat, which would\nthen be picked up by a bot using Twitch's API. This command\nwould then be replaced by its source development console\nequivilent, and executed in the game environment through an\nopen telnet server.\nGithub: GeorgeSpiller/Portal2TwitchBot", 
     p1_body_position: [3, 25, 5],
     p1_body_size: 0.4, 
 }
