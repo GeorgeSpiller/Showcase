@@ -18,7 +18,12 @@ export default function Model(props) {
         receiveShadow
         geometry={nodes.mesh_0.geometry}
         >
-        <meshStandardMaterial/>
+        <meshPhysicalMaterial 
+          color={'#FFCAC6'}
+          metalness={0.6}
+          roughness={0.2}
+
+        />
       </mesh>
     </group>
   )

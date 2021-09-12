@@ -36,9 +36,12 @@ export default function CanvasProjects() {
                         projectNumber={projectNumber}
                 />
 
-                <ambientLight intensity={0.1}/>
-                <pointLight position={p1_position} color={'#ffffff'} intensity={0.2}/>
+                <ambientLight intensity={0.2}/>
+                
+                <pointLight position={p1_position} color={'#ffffff'} intensity={0.9}/>
+                
                 <pointLight position={p2_position} color={'#ffffff'} intensity={0.2}/>
+                
                 <pointLight position={p3_position} color={'#ffffff'} intensity={0.2}/>
                 
                 <PointLightLightSpring 
@@ -59,7 +62,7 @@ export default function CanvasProjects() {
                 />
                 <PointLightLightSpring 
                     intensity={0.4}
-                    color={"#FFCAC6"}
+                    color={"#a53865"}
                     speed={allSpeed}
                     position={[0, 0, -30]}
                     plane={1}
