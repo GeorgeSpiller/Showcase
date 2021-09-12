@@ -4,11 +4,10 @@ import * as THREE from 'three';
 import Ubuntu from '../../../resources/Ubuntu_Bold.json';
 import { useFrame} from '@react-three/fiber';
 
-export default function SimpleFont({ message, position, size}) {
+export default function SimpleFont({ message, position, size, color}) {
 
     const mesh = useRef();
     const font = new THREE.FontLoader().parse(Ubuntu);
-    const color = "#7f7f7f";
     const shapes = font.generateShapes( message, size );
 
     useFrame(({ camera }) => {
@@ -22,7 +21,7 @@ export default function SimpleFont({ message, position, size}) {
                 attach="material"
                 color={color}
                 transparent={true}
-                opacity={0.4}
+                opacity={0.8}
                 side={THREE.DoubleSide}
             />
         </mesh>
@@ -32,12 +31,14 @@ export default function SimpleFont({ message, position, size}) {
 SimpleFont.propTypes = {
     message: PropTypes.string,
     position: PropTypes.array,
-    size: PropTypes.number
+    size: PropTypes.number,
+    color: PropTypes.string
 };
 
 SimpleFont.defaultProps = {
     message: 'Sample Text',
     position: [25, 3, 20],
-    size: 1
+    size: 1,
+    color: "#424242"
 };
 

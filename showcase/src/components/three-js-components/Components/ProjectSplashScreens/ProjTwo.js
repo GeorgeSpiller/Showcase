@@ -16,6 +16,7 @@ export default function PorjTwo() {
                 message={projectTwo.p1_body_message}
                 position={projectTwo.p1_body_position}
                 size={projectTwo.p1_body_size}
+                color={"#000000"}
             />
         </React.Fragment>
     )
