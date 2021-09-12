@@ -14,7 +14,6 @@ export default function SimpleFont({ message, position, size, color, fadeInDelay
     var currOpac = 0;
 
     useFrame(({ camera }) => {
-        console.log(fadeInDelay);
         if (fadeInDelay) {            
             if (currOpac < opacity) {
                 currOpac += 0.002;
