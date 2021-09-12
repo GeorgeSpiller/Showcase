@@ -1,4 +1,3 @@
-
 import { Vector3, Object3D } from 'three';
 
 const p1_position = new Vector3(20, 0, 30)
