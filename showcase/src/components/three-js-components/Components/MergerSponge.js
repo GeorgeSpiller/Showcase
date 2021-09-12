@@ -22,7 +22,6 @@ export default function Model(props) {
           color={'#FFCAC6'}
           metalness={0.6}
           roughness={0.2}
-
         />
       </mesh>
     </group>

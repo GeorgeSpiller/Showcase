@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import { useFrame} from '@react-three/fiber';
 import PropTypes from 'prop-types';
+import Icosahedron from './Icosahedron';
 
 export default function PointLightLightSpring({intensity, color, speed, position, plane, startRange}) {
 
@@ -23,9 +24,10 @@ export default function PointLightLightSpring({intensity, color, speed, position
         }
     })
     return (
-        <React.Fragment>
-            <pointLight intensity={intensity} color={color} position={position} ref={light}/>   
-        </React.Fragment>
+        <group position={position} ref={light}>
+            <Icosahedron />
+            <pointLight intensity={intensity} color={color} />   
+        </group>
     );
 
 

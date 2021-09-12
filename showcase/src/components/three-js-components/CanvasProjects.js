@@ -4,6 +4,7 @@ import MergerSponge from './Components/MergerSponge';
 import CameraAnimation from './Components/CameraAnimation';
 import ProjectSplashScreenManager from './Components/ProjectSplashScreens/ProjectSplashScreenManger';
 import PointLightLightSpring from './Components/PointLightSpring';
+import PointLightOrbit from './Components/PointLightOrbit';
 import {
     p1_position,
     p2_position, 
@@ -48,25 +49,25 @@ export default function CanvasProjects() {
                     intensity={0.8}
                     color={"#C62368"}
                     speed={allSpeed}
-                    position={[0, 0, -30]}
-                    plane={2}
-                    startRange={allStartRange}
-                />
-                <PointLightLightSpring 
-                    intensity={0.6}
-                    color={"#FA7268"}
-                    speed={allSpeed}
-                    position={[0, 0, -30]}
+                    position={[0, -8, -16.5]}
                     plane={0}
-                    startRange={allStartRange}
+                    startRange={0}
                 />
+
+                <PointLightOrbit 
+                    intensity={0.8}
+                    color={"#C62368"}
+                    rad={23}
+                    position={[0, 15, -20]}
+                />
+
                 <PointLightLightSpring 
                     intensity={0.4}
                     color={"#a53865"}
                     speed={allSpeed}
-                    position={[0, 0, -30]}
-                    plane={1}
-                    startRange={allStartRange}
+                    position={[0, 8.8, 0]}
+                    plane={2}
+                    startRange={-16}
                 />
 
                 <ProjectSplashScreenManager projectNumber={projectNumber}/>
