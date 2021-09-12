@@ -11,12 +11,14 @@ export default function PorjTwo() {
                 message={projectTwo.p1_title_message}
                 position={projectTwo.p1_title_position}
                 size={projectTwo.p1_title_size}
+                fadeInDelay={false}
             />
             <SimpleFont 
                 message={projectTwo.p1_body_message}
                 position={projectTwo.p1_body_position}
                 size={projectTwo.p1_body_size}
                 color={"#000000"}
+                fadeInDelay={true}
             />
         </React.Fragment>
     )
