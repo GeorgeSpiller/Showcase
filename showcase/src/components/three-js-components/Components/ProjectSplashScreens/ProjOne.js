@@ -1,17 +1,22 @@
-import React, { useRef } from 'react';
-import UbuntuFontMesh from '../UbuntuFont';
+import React from 'react';
+import SimpleFont from './SimpleFont';
+import {
+    projectOne,
+} from './TextAttributes';
 
-export default function ProjectSplashScreen(props) {
-    const ref = useRef()
+export default function PorjOne(props) {
     return (
         <React.Fragment>
-            <mesh
-            position={[25, 0, 20]}
-            ref={ref}
-            scale={1}>
-            <boxGeometry args={[1, 1, 1]} />
-            <meshStandardMaterial color={"#ff0000"} />
-            </mesh>
+            <SimpleFont 
+                message={projectOne.p1_title_message}
+                position={projectOne.p1_title_position}
+                size={projectOne.p1_title_size}
+            />
+            <SimpleFont 
+                message={projectOne.p1_body_message}
+                position={projectOne.p1_body_position}
+                size={projectOne.p1_body_size}
+            />
         </React.Fragment>
     )
   }
