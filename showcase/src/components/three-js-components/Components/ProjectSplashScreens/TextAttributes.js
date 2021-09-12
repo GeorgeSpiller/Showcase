@@ -13,7 +13,7 @@ const projectTwo = {
     p1_title_position: [-10.5, 0, -14],
     p1_title_size: 1, 
     
-    p1_body_message: "The goal of this project was to create an interface\nbetween Twitch chat (viewers of a Twitch Liverstream)\nand the game console of Portal 2 (by Valve). It allows\nfor people to type commands in Twitch chat, which would\neffect/change in-game objects or parameters. These commands\nwould be picked up by a bot using Twitch's API and then be\nreplaced by its Development Console equivilent, and executed\nin the game enviroment through an open telnet server.\n Github: GeorgeSpiller/Portal2TwitchBot",
+    p1_body_message: "This project was made to dynamically\nfetch Tweets from @Arena_51_Gaming\ninorder to compile them into an\nanimated GIF. The goal was to quickly\nand easily be able to produce high \nquality GIF's of the top 5 most recent\ntweets, inorder to display them on our\nlivestreams\n\nGithub: GeorgeSpiller/A51TweetDisplay",
     p1_body_position: [5, 4, 0],
     p1_body_size: 0.4, 
 }
