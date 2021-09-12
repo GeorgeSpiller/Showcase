@@ -20,12 +20,12 @@ export default function CanvasProjects() {
     const [projectNumber, setProjectNumber] = useState(1);
 
     // Lighting Animations
-    const allStartRange = 0;
     const allSpeed = 20;
 
 
     return (  
-    <Suspense fallback={<div className="spinner-border"></div>}>
+    
+    <Suspense fallback={<div className="spinner"><div className="spinner-border"></div></div>}>
         <div className={"CanvasProjectsDiv"} onClick={(event) => {
                 setProjectNumber(projectNumber + 1)
                 if (projectNumber > MAX_PROJECT_INDEX) {

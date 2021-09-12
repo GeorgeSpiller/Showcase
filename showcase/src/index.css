@@ -71,3 +71,10 @@ canvas {
   background-color: #ffcac6;
   margin: 0px;
 }
+
+.spinner{
+  width: 100%;
+  height: 50px; 
+  text-align: center;
+  background-color: #ffcac6;
+}
