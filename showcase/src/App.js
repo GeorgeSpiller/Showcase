@@ -5,12 +5,15 @@ import { Scrollbars } from 'react-custom-scrollbars';
 import useWindowDimensions from './components/WindowDimentions';
 import CanvasWelcome from './components/three-js-components/CanvasWelcome';
 import CanvasProjects from './components/three-js-components/CanvasProjects';
-import React  from 'react';
+import React, { useState } from 'react';
 
 
 function App() {
   const { height, width } = useWindowDimensions();
-  if (width > 769) {
+
+  const [continueAnyway, setcontinueAnyway] = useState(false)
+
+  if (width > 769 || continueAnyway) {
     return(
       <Scrollbars style={{ width: width, height: height }} >
         
@@ -21,12 +24,17 @@ function App() {
         <FooterInfo />
 
       </Scrollbars>
+
     );
   } else {
     return (
       <div className="smallWidthDiv footerFonts"> 
-        <p> Nah mate, no phones allowed, this site looks so much better in HDDDDDDDDDD</p>
-        <p> Get urself over to a laptop or PC for the full experience. Or... turn ur phone sideways??</p>
+        <p> This site was made for wider screens, and your experience may be effected if you continue.</p>
+        <p> <button onClick={() => {
+          setcontinueAnyway(true)
+          console.log(continueAnyway)
+          
+          }}> Continue Anyway </button> </p>
       </div>
     );
   }
