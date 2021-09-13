@@ -13,7 +13,7 @@ const projectTwo = {
     p1_title_position: [-10.5, 0, -14],
     p1_title_size: 1, 
     
-    p1_body_message: "This project was made to dynamically\nfetch Tweets from @Arena_51_Gaming\to compile them into an\nanimated GIF. The goal was to quickly\nand easily be able to produce high \nquality GIFs of the top 5 most recent\ntweets, in order to display them on our\nlivestreams\n\nLink to GitHub bellow (A51TweetDisplay).",
+    p1_body_message: "This project was made to dynamically\nfetch Tweets from @Arena_51_Gaming\nto compile them into an\nanimated GIF. The goal was to quickly\nand easily be able to produce high \nquality GIFs of the top 5 most recent\ntweets, in order to display them on our\nlivestreams\n\nLink to GitHub bellow (A51TweetDisplay).",
     p1_body_position: [5, 4, 0],
     p1_body_size: 0.4, 
 }
