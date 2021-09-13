@@ -1,4 +1,6 @@
 import DividerRedWaves from './components/Divider-RedWaves';
+import DividerRedPeaks from './components/DividerRedPeaks';
+import FooterInfo from './components/FooterInfo';
 import { Scrollbars } from 'react-custom-scrollbars';
 import useWindowDimensions from './components/WindowDimentions';
 import CanvasWelcome from './components/three-js-components/CanvasWelcome';
@@ -14,8 +16,10 @@ function App() {
         
         <CanvasWelcome IcosahedronAmount={20} />
         <DividerRedWaves />
-
         <CanvasProjects />
+        <DividerRedPeaks />
+        <FooterInfo />
+
       </Scrollbars>
   );
 }

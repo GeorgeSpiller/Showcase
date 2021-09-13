@@ -1,5 +1,5 @@
 const projectOne = {
-    p1_title_message: "Project One",
+    p1_title_message: "Project One - React.",
     p1_title_position: [20, 3, 20],
     p1_title_size: 1, 
     
@@ -9,7 +9,7 @@ const projectOne = {
 }
 
 const projectTwo = {
-    p1_title_message: "Project Two",
+    p1_title_message: "Project Two\nA51 Tweets.",
     p1_title_position: [-10.5, 0, -14],
     p1_title_size: 1, 
     
@@ -19,8 +19,8 @@ const projectTwo = {
 }
 
 const projectThree = {
-    p1_title_message: "Project Three",
-    p1_title_position: [-45, 20, -10],
+    p1_title_message: "Project Three\nPortal Twitch Bot.",
+    p1_title_position: [-45, 30, -10],
     p1_title_size: 10, 
     
     p1_body_message:"The goal of this project was to create an interface\nbetween Twitch chat (viewers of a Twitch Liverstream)\nand the game console of Portal 2 (by Valve). It allows\nfor people to type commands in Twitch chat, which would\nthen be picked up by a bot using Twitch's API. This command\nwould then be replaced by its source development console\nequivilent, and executed in the game environment through an\nopen telnet server.\nGithub: GeorgeSpiller/Portal2TwitchBot", 
