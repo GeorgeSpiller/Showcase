@@ -10,8 +10,8 @@ import React  from 'react';
 
 function App() {
   const { height, width } = useWindowDimensions();
-
-  return(
+  if (width > 769) {
+    return(
       <Scrollbars style={{ width: width, height: height }} >
         
         <CanvasWelcome IcosahedronAmount={20} />
@@ -21,7 +21,15 @@ function App() {
         <FooterInfo />
 
       </Scrollbars>
-  );
+    );
+  } else {
+    return (
+      <div className="smallWidthDiv footerFonts"> 
+        <p> Nah mate, no phones allowed, this site looks so much better in HDDDDDDDDDD</p>
+        <p> Get urself over to a laptop or PC for the full experience. Or... turn ur phone sideways??</p>
+      </div>
+    );
+  }
 }
 
 export default App;
