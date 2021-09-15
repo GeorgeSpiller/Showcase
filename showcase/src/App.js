@@ -1,6 +1,6 @@
 import DividerRedWaves from './components/Divider-RedWaves';
 import DividerRedPeaks from './components/DividerRedPeaks';
-import FooterInfo from './components/FooterInfo';
+import FooterContainer from './components/FooterContainer';
 import { Scrollbars } from 'react-custom-scrollbars';
 import useWindowDimensions from './components/WindowDimentions';
 import CanvasWelcome from './components/three-js-components/CanvasWelcome';
@@ -21,7 +21,7 @@ function App() {
         <DividerRedWaves />
         <CanvasProjects />
         <DividerRedPeaks />
-        <FooterInfo />
+        <FooterContainer />
 
       </Scrollbars>
 
