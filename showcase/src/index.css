@@ -126,3 +126,16 @@ a:hover {
   text-align: center;
   background-color: #2B2B2B;
 }
+
+.CanvasWelcome {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0x;
+  background-color: #C62368;
+}
+
+
+
