@@ -1,4 +1,4 @@
-export default function DividerRedPeaks() {
+export default function FooterContainer() {
     return(
         <div className="footerDiv footerFonts"> 
             <p> Thank you for visiting my website. I hope you enjoyed your stay! Please check out my GitHub <a href="https://github.com/GeorgeSpiller/"> GitHub/GeorgeSpiller </a> to browse some of the projects mentioned above, and some others.</p>
