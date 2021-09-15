@@ -21,7 +21,7 @@ export default function CanvasWelcome(props) {
     }
 
     return (  
-    <div style={{backgroundColor: "#C62368", margin:"-1px"}}>
+    <div className="CanvasWelcome">
         <Canvas >
             <ambientLight intensity={0.8}/>
             <pointLight position={[10, 10, 10]} />
