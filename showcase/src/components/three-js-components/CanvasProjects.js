@@ -9,7 +9,7 @@ import {
     p1_position,
     p2_position, 
     p3_position,
-} from './store/CameraPositions';
+} from '../store/CameraPositions';
 
 const MAX_PROJECT_INDEX = 2
 

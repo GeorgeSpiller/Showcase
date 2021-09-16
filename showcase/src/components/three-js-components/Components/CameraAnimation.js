@@ -7,7 +7,7 @@ import {
   p3_position, 
   p3_target,
   destObj
-} from '../store/CameraPositions';
+} from '../../store/CameraPositions';
 
 export default function CameraAnimation({projectNumber}) {
 

@@ -2,7 +2,7 @@ import React from 'react';
 import SimpleFont from './SimpleFont';
 import {
     projectThree,
-} from '../../store/TextAttributes';
+} from '../../../store/TextAttributes';
 
 export default function PorjTwo() {
     return (
