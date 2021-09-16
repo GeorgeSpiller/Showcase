@@ -156,7 +156,26 @@ a:hover {
 
 .PDevItem {
   text-align: center;
-  background: #ce8888;
   flex-basis: 50%;
   margin: 5px;
+}
+
+.PDevItemTitleText {
+  padding: 0px;
+  font-family: 'Ubuntu', sans-serif; 
+  font-size: 32px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 1;
+  color: #C62368;
+}
+
+.PDevItemLocationText {
+  padding: 0px;
+  font-family: 'Ubuntu', sans-serif; 
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 1;
+  color: #FFCAC6;
 }
