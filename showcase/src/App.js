@@ -22,6 +22,17 @@ function App() {
         <CanvasProjects />
         <DividerRedPeaks />
         <FooterContainer />
+        
+        {/* Plan:
+        - Next section located iether benieth or as a button
+          to different page (below Porject Canvas)
+        - This new section is dedicated to other 
+          CV info (GAP Year, switzerland, ect. ect) 
+        - Various, simpler Div sections with one half canvas,
+          the other half text desription.
+        - Canvas to contain cube with images as textures. Cube
+          animates to show each face (image)
+         */}
 
       </Scrollbars>
 
