@@ -1,5 +1,5 @@
 import PDevTextSection from "./PDevTextSection";
-import PDEVCanvasSection from "./PDevCanvasSection";
+import PDEVCanvasSection from "./three-js-components/Components/PDevCanvasSection";
 import {
     SAMPLETEXT
 } from './store/PDevText';
