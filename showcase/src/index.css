@@ -137,5 +137,26 @@ a:hover {
   background-color: #C62368;
 }
 
+.PDevcol {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  width: 100%;
+  height: 225%;
+  background-color: #2B2B2B;
+}
 
+.PDevrow {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
 
+.PDevItem {
+  text-align: center;
+  background: #ce8888;
+  flex-basis: 50%;
+  margin: 5px;
+}

@@ -1,11 +1,12 @@
-import DividerRedWaves from './components/Divider-RedWaves';
-import DividerRedPeaks from './components/DividerRedPeaks';
-import FooterContainer from './components/FooterContainer';
+import React, { useState } from 'react';
 import { Scrollbars } from 'react-custom-scrollbars';
 import useWindowDimensions from './components/WindowDimentions';
 import CanvasWelcome from './components/three-js-components/CanvasWelcome';
+import DividerRedWaves from './components/Divider-RedWaves';
 import CanvasProjects from './components/three-js-components/CanvasProjects';
-import React, { useState } from 'react';
+import DividerRedPeaks from './components/DividerRedPeaks';
+import FooterContainer from './components/FooterContainer';
+import PersonalDevelopment from './components/PersonalDeveloment';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <DividerRedWaves />
         <CanvasProjects />
         <DividerRedPeaks />
+        <PersonalDevelopment />
         <FooterContainer />
         
         {/* Plan:
