@@ -1,4 +1,5 @@
 import PDevTextSection from "./PDevTextSection";
+import React, { Suspense } from 'react';
 import PDEVCanvasSection from "./three-js-components/Components/PDevCanvasSection";
 import {
     SAMPLETEXT
@@ -6,6 +7,9 @@ import {
 
 export default function PersonalDevelopment() {
     return(
+        <Suspense fallback={<div className="spinner"><div className="spinner-border"></div></div>}>
+
+        <div>
         <div className="PDevcol">
             <div className="PDevrow">
                 <PDEVCanvasSection title={"CANVAS"} />
@@ -20,5 +24,8 @@ export default function PersonalDevelopment() {
                 <PDevTextSection title={SAMPLETEXT.SAMPLETEXT_TITLE} textObj={SAMPLETEXT}/>
             </div>
         </div>
+        </div>
+
+        </Suspense>
     );
 }

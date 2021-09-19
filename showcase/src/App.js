@@ -25,29 +25,15 @@ function App() {
         <PersonalDevelopment />
         <DividerSteps />
         <FooterContainer />
-        
-        {/* Plan:
-        - Next section located iether benieth or as a button
-          to different page (below Porject Canvas)
-        - This new section is dedicated to other 
-          CV info (GAP Year, switzerland, ect. ect) 
-        - Various, simpler Div sections with one half canvas,
-          the other half text desription.
-        - Canvas to contain cube with images as textures. Cube
-          animates to show each face (image)
-         */}
-
       </Scrollbars>
 
     );
   } else {
     return (
-      <div className="smallWidthDiv footerFonts"> 
+      <div className="phoneUserDiv"> 
         <p> This site was made for wider screens, and your experience may be effected if you continue.</p>
         <p> <button onClick={() => {
-          setcontinueAnyway(true)
-          console.log(continueAnyway)
-          
+          setcontinueAnyway(true)          
           }}> Continue Anyway </button> </p>
       </div>
     );
