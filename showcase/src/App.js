@@ -5,9 +5,9 @@ import CanvasWelcome from './components/three-js-components/CanvasWelcome';
 import DividerRedWaves from './components/Divider-RedWaves';
 import CanvasProjects from './components/three-js-components/CanvasProjects';
 import DividerRedPeaks from './components/DividerRedPeaks';
-import FooterContainer from './components/FooterContainer';
 import PersonalDevelopment from './components/PersonalDeveloment';
-
+import DividerSteps from './components/DividerSteps';
+import FooterContainer from './components/FooterContainer';
 
 function App() {
   const { height, width } = useWindowDimensions();
@@ -23,6 +23,7 @@ function App() {
         <CanvasProjects />
         <DividerRedPeaks />
         <PersonalDevelopment />
+        <DividerSteps />
         <FooterContainer />
         
         {/* Plan:

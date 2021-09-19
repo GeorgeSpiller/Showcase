@@ -53,12 +53,24 @@ a:hover {
   background-size: cover;
 }
 
+.spacer3 {
+  aspect-ratio: 900/600;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .layer1 {
   background-image: url('./components/resources/finished.svg');
 }
 
 .layer2 {
   background-image: url('./components/resources/layered-peaks-haikei.svg');
+}
+
+.layer3 {
+  background-image: url('./components/resources/stacked-steps-haikei.svg');
 }
 
 .title {
@@ -107,7 +119,7 @@ a:hover {
   width: 100%;
   height: 100px;
   text-align: center;
-  background-color: #2B2B2B;
+  background-color: #B0235F;
 }
 
 .footerFonts{
@@ -116,7 +128,7 @@ a:hover {
   font-style: normal;
   font-variant: normal;
   font-weight: 1;
-  color: #c9a0b1;
+  color: #2B2B2B;
 }
 
 .smallWidthDiv {
@@ -152,6 +164,15 @@ a:hover {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
+}
+
+.PDevItemFonts{
+  font-family: 'Ubuntu', sans-serif; 
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 1;
+  color: #F3A0A3;
 }
 
 .PDevItem {
