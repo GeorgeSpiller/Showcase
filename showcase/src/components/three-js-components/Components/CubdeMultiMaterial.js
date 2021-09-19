@@ -1,9 +1,32 @@
 import React, { useRef, useState } from 'react'
-import { useFrame } from '@react-three/fiber'
+import { useFrame,useLoader } from '@react-three/fiber'
 import { Vector3 } from 'three';
+import * as THREE from 'three';
+
+import raw_sample1 from '../../resources/Images/sample1.jpg'
+import raw_sample2 from '../../resources/Images/sample2.jpg'
+import raw_sample3 from '../../resources/Images/sample3.jpg'
+import raw_sample4 from '../../resources/Images/sample4.jpg'
+import raw_sample5 from '../../resources/Images/sample5.jpg'
+import raw_sample6 from '../../resources/Images/sample6.jpg'
+
+import raw_madagascar1 from '../../resources/Images/Madagascar_(1).jpg'
+import raw_madagascar2 from '../../resources/Images/Madagascar_(2).jpg'
+import raw_madagascar3 from '../../resources/Images/Madagascar_(3).jpg'
+import raw_madagascar4 from '../../resources/Images/Madagascar_(4).jpg'
+import raw_madagascar5 from '../../resources/Images/Madagascar_(5).jpg'
+import raw_madagascar6 from '../../resources/Images/Madagascar_(6).jpg'
+
+import raw_southAfrica1 from '../../resources/Images/sample1.jpg'
+import raw_southAfrica2 from '../../resources/Images/sample2.jpg'
+import raw_southAfrica3 from '../../resources/Images/sample3.jpg'
+import raw_southAfrica4 from '../../resources/Images/sample4.jpg'
+import raw_southAfrica5 from '../../resources/Images/sample5.jpg'
+import raw_southAfrica6 from '../../resources/Images/sample6.jpg'
 
 
-export default function CubeMultiMaterial({materialArray}) {
+
+export default function CubeMultiMaterial({materialNumber}) {
     const ref = useRef()
     const MAX_PHOTO_NUMBER = 5;
     const [clickCycle, setClickCycle] = useState(Math.floor(Math.random() * 6));
@@ -40,34 +63,128 @@ export default function CubeMultiMaterial({materialArray}) {
         default:
             goalPos = pos1;
         }
-    console.log(clickCycle)
 
     useFrame(({ camera }) => {
         camera.position.lerp(goalPos, 0.01);
         camera.lookAt(ref.current.position)
 
         ref.current.rotation.y += 0.001;
-        ref.current.rotation.z += 0.001;
     })
 
-    return (
-        <mesh 
-            position={[0, 0, 0]} 
-            ref={ref}
-            scale={20}
-            onClick={() => {
-                setClickCycle(clickCycle + 1)
-                if (clickCycle > MAX_PHOTO_NUMBER) {
-                    setClickCycle(1);
-               }
-            }} >
-                <boxGeometry attach="geometry" args={[1, 1, 1]} />
-                <meshStandardMaterial map={ materialArray[0] } attachArray="material"  />
-                <meshStandardMaterial map={ materialArray[1] } attachArray="material"  />
-                <meshStandardMaterial map={ materialArray[2] } attachArray="material"  />
-                <meshStandardMaterial map={ materialArray[3] } attachArray="material"  />
-                <meshStandardMaterial map={ materialArray[4] } attachArray="material"  />
-                <meshStandardMaterial map={ materialArray[5] } attachArray="material"  />
-        </mesh>
-    )
+    const SAMPLE_materialArray = [
+        useLoader(THREE.TextureLoader, raw_sample1),
+        useLoader(THREE.TextureLoader, raw_sample2),
+        useLoader(THREE.TextureLoader, raw_sample3),
+        useLoader(THREE.TextureLoader, raw_sample4),
+        useLoader(THREE.TextureLoader, raw_sample5),
+        useLoader(THREE.TextureLoader, raw_sample6),
+    ]
+
+    
+    const madagascar_materialArray = [
+        useLoader(THREE.TextureLoader, raw_madagascar1),
+        useLoader(THREE.TextureLoader, raw_madagascar2),
+        useLoader(THREE.TextureLoader, raw_madagascar3),
+        useLoader(THREE.TextureLoader, raw_madagascar4),
+        useLoader(THREE.TextureLoader, raw_madagascar5),
+        useLoader(THREE.TextureLoader, raw_madagascar6),
+    ]
+
+    
+    const southAfrica_materialArray = [
+        useLoader(THREE.TextureLoader, raw_southAfrica1),
+        useLoader(THREE.TextureLoader, raw_southAfrica2),
+        useLoader(THREE.TextureLoader, raw_southAfrica3),
+        useLoader(THREE.TextureLoader, raw_southAfrica4),
+        useLoader(THREE.TextureLoader, raw_southAfrica5),
+        useLoader(THREE.TextureLoader, raw_southAfrica6),
+    ]
+
+    switch(materialNumber) {
+        case 0:
+            return (
+                <mesh 
+                    position={[0, 0, 0]} 
+                    ref={ref}
+                    scale={20}
+                    onClick={() => {
+                        setClickCycle(clickCycle + 1)
+                        if (clickCycle > MAX_PHOTO_NUMBER) {
+                            setClickCycle(1);
+                       }
+                    }} >
+                        <boxGeometry attach="geometry" args={[1, 1, 1]} />
+                        <meshStandardMaterial map={ madagascar_materialArray[0] } attachArray="material"  />
+                        <meshStandardMaterial map={ madagascar_materialArray[1] } attachArray="material"  />
+                        <meshStandardMaterial map={ madagascar_materialArray[2] } attachArray="material"  />
+                        <meshStandardMaterial map={ madagascar_materialArray[3] } attachArray="material"  />
+                        <meshStandardMaterial map={ madagascar_materialArray[4] } attachArray="material"  />
+                        <meshStandardMaterial map={ madagascar_materialArray[5] } attachArray="material"  />
+                </mesh>
+            )
+        case 1:
+            return (
+                <mesh 
+                    position={[0, 0, 0]} 
+                    ref={ref}
+                    scale={20}
+                    onClick={() => {
+                        setClickCycle(clickCycle + 1)
+                        if (clickCycle > MAX_PHOTO_NUMBER) {
+                            setClickCycle(1);
+                       }
+                    }} >
+                        <boxGeometry attach="geometry" args={[1, 1, 1]} />
+                        <meshStandardMaterial map={ southAfrica_materialArray[0] } attachArray="material"  />
+                        <meshStandardMaterial map={ southAfrica_materialArray[1] } attachArray="material"  />
+                        <meshStandardMaterial map={ southAfrica_materialArray[2] } attachArray="material"  />
+                        <meshStandardMaterial map={ southAfrica_materialArray[3] } attachArray="material"  />
+                        <meshStandardMaterial map={ southAfrica_materialArray[4] } attachArray="material"  />
+                        <meshStandardMaterial map={ southAfrica_materialArray[5] } attachArray="material"  />
+                </mesh>
+            )
+        case 2:
+            return (
+                <mesh 
+                    position={[0, 0, 0]} 
+                    ref={ref}
+                    scale={20}
+                    onClick={() => {
+                        setClickCycle(clickCycle + 1)
+                        if (clickCycle > MAX_PHOTO_NUMBER) {
+                            setClickCycle(1);
+                       }
+                    }} >
+                        <boxGeometry attach="geometry" args={[1, 1, 1]} />
+                        <meshStandardMaterial map={ SAMPLE_materialArray[0] } attachArray="material"  />
+                        <meshStandardMaterial map={ SAMPLE_materialArray[1] } attachArray="material"  />
+                        <meshStandardMaterial map={ SAMPLE_materialArray[2] } attachArray="material"  />
+                        <meshStandardMaterial map={ SAMPLE_materialArray[3] } attachArray="material"  />
+                        <meshStandardMaterial map={ SAMPLE_materialArray[4] } attachArray="material"  />
+                        <meshStandardMaterial map={ SAMPLE_materialArray[5] } attachArray="material"  />
+                </mesh>
+            )
+        default:
+            return (
+                <mesh 
+                    position={[0, 0, 0]} 
+                    ref={ref}
+                    scale={20}
+                    onClick={() => {
+                        setClickCycle(clickCycle + 1)
+                        if (clickCycle > MAX_PHOTO_NUMBER) {
+                            setClickCycle(1);
+                       }
+                    }} >
+                        <boxGeometry attach="geometry" args={[1, 1, 1]} />
+                        <meshStandardMaterial map={ SAMPLE_materialArray[0] } attachArray="material"  />
+                        <meshStandardMaterial map={ SAMPLE_materialArray[1] } attachArray="material"  />
+                        <meshStandardMaterial map={ SAMPLE_materialArray[2] } attachArray="material"  />
+                        <meshStandardMaterial map={ SAMPLE_materialArray[3] } attachArray="material"  />
+                        <meshStandardMaterial map={ SAMPLE_materialArray[4] } attachArray="material"  />
+                        <meshStandardMaterial map={ SAMPLE_materialArray[5] } attachArray="material"  />
+                </mesh>
+            )
+    }
+
   }
