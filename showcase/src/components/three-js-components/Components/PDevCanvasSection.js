@@ -1,12 +1,11 @@
 import React, { Suspense, useState } from 'react';
 import { Canvas } from '@react-three/fiber';
-import Box from './Box';
+import CubeMultiMaterial from './CubdeMultiMaterial';
 
 export default function PDEVCanvasSection({title, text}) {
 
     const [photoNumber, setPhotoNumber] = useState(1);
     const NUMBER_OF_PHOTOS = 3;
-
     return(
         <Suspense fallback={<div className="spinner"><div className="spinner-border"></div></div>}>
         <div className={"CanvasPDevDiv"} onClick={(event) => {
@@ -17,7 +16,7 @@ export default function PDEVCanvasSection({title, text}) {
             }}>
             <Canvas >
                 <ambientLight intensity={1}/>
-                <Box color/>
+                <CubeMultiMaterial />
             </Canvas>
         </div>
     </Suspense>
