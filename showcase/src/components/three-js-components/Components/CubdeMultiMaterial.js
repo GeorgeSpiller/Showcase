@@ -3,13 +3,6 @@ import { useFrame,useLoader } from '@react-three/fiber'
 import { Vector3 } from 'three';
 import * as THREE from 'three';
 
-import raw_sample1 from '../../resources/Images/sample1.jpg'
-import raw_sample2 from '../../resources/Images/sample2.jpg'
-import raw_sample3 from '../../resources/Images/sample3.jpg'
-import raw_sample4 from '../../resources/Images/sample4.jpg'
-import raw_sample5 from '../../resources/Images/sample5.jpg'
-import raw_sample6 from '../../resources/Images/sample6.jpg'
-
 import raw_madagascar1 from '../../resources/Images/Madagascar_(1).jpg'
 import raw_madagascar2 from '../../resources/Images/Madagascar_(2).jpg'
 import raw_madagascar3 from '../../resources/Images/Madagascar_(3).jpg'
@@ -17,12 +10,31 @@ import raw_madagascar4 from '../../resources/Images/Madagascar_(4).jpg'
 import raw_madagascar5 from '../../resources/Images/Madagascar_(5).jpg'
 import raw_madagascar6 from '../../resources/Images/Madagascar_(6).jpg'
 
-import raw_southAfrica1 from '../../resources/Images/sample1.jpg'
-import raw_southAfrica2 from '../../resources/Images/sample2.jpg'
-import raw_southAfrica3 from '../../resources/Images/sample3.jpg'
-import raw_southAfrica4 from '../../resources/Images/sample4.jpg'
-import raw_southAfrica5 from '../../resources/Images/sample5.jpg'
-import raw_southAfrica6 from '../../resources/Images/sample6.jpg'
+import raw_southAfrica1 from '../../resources/Images/SouthAfrica1.jpg'
+import raw_southAfrica2 from '../../resources/Images/SouthAfrica2.jpg'
+import raw_southAfrica3 from '../../resources/Images/SouthAfrica3.jpg'
+import raw_southAfrica4 from '../../resources/Images/SouthAfrica4.jpg'
+import raw_southAfrica5 from '../../resources/Images/SouthAfrica5.png'
+import raw_southAfrica6 from '../../resources/Images/SouthAfrica6.jpg'
+
+
+import raw_switzerland1 from '../../resources/Images/sample1.jpg'
+import raw_switzerland2 from '../../resources/Images/sample2.jpg'
+import raw_switzerland3 from '../../resources/Images/sample3.jpg'
+import raw_switzerland4 from '../../resources/Images/sample4.jpg'
+import raw_switzerland5 from '../../resources/Images/sample5.jpg'
+import raw_switzerland6 from '../../resources/Images/sample6.jpg'
+
+
+import raw_sample1 from '../../resources/Images/sample1.jpg'
+import raw_sample2 from '../../resources/Images/sample2.jpg'
+import raw_sample3 from '../../resources/Images/sample3.jpg'
+import raw_sample4 from '../../resources/Images/sample4.jpg'
+import raw_sample5 from '../../resources/Images/sample5.jpg'
+import raw_sample6 from '../../resources/Images/sample6.jpg'
+
+
+
 
 
 
