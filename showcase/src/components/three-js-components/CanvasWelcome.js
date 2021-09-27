@@ -27,6 +27,7 @@ export default function CanvasWelcome(props) {
             <pointLight position={[10, 10, 10]} />
             
             <StandardCameraControls 
+                    enablePan={false}
                     enableZoom={false} 
                     autoRotate={true}
                     target={[0, 0, 0]}   
