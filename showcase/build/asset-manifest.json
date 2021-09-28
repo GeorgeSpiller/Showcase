@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.97d61983.chunk.css",
-    "main.js": "/static/js/main.3f19dc22.chunk.js",
-    "main.js.map": "/static/js/main.3f19dc22.chunk.js.map",
+    "main.js": "/static/js/main.cb6ac891.chunk.js",
+    "main.js.map": "/static/js/main.cb6ac891.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fca6b5e4.js",
     "runtime-main.js.map": "/static/js/runtime-main.fca6b5e4.js.map",
     "static/js/2.31c3480f.chunk.js": "/static/js/2.31c3480f.chunk.js",
@@ -10,6 +10,10 @@
     "index.html": "/index.html",
     "static/css/main.97d61983.chunk.css.map": "/static/css/main.97d61983.chunk.css.map",
     "static/js/2.31c3480f.chunk.js.LICENSE.txt": "/static/js/2.31c3480f.chunk.js.LICENSE.txt",
+    "static/media/CS_1.cb34ddc6.jpg": "/static/media/CS_1.cb34ddc6.jpg",
+    "static/media/CS_2.d10275cd.jpg": "/static/media/CS_2.d10275cd.jpg",
+    "static/media/CS_3.aae8e611.jpg": "/static/media/CS_3.aae8e611.jpg",
+    "static/media/CS_4.d3db795b.jpg": "/static/media/CS_4.d3db795b.jpg",
     "static/media/Madagascar_(1).95f3ac5c.jpg": "/static/media/Madagascar_(1).95f3ac5c.jpg",
     "static/media/Madagascar_(2).cb841abe.jpg": "/static/media/Madagascar_(2).cb841abe.jpg",
     "static/media/Madagascar_(3).22e270aa.jpg": "/static/media/Madagascar_(3).22e270aa.jpg",
@@ -35,6 +39,6 @@
     "static/js/runtime-main.fca6b5e4.js",
     "static/js/2.31c3480f.chunk.js",
     "static/css/main.97d61983.chunk.css",
-    "static/js/main.3f19dc22.chunk.js"
+    "static/js/main.cb6ac891.chunk.js"
   ]
 }

@@ -18,12 +18,12 @@ import raw_southAfrica5 from '../../resources/Images/SouthAfrica5.png'
 import raw_southAfrica6 from '../../resources/Images/SouthAfrica6.jpg'
 
 
-import raw_switzerland1 from '../../resources/Images/sample1.jpg'
-import raw_switzerland2 from '../../resources/Images/sample2.jpg'
-import raw_switzerland3 from '../../resources/Images/sample3.jpg'
-import raw_switzerland4 from '../../resources/Images/sample4.jpg'
-import raw_switzerland5 from '../../resources/Images/sample5.jpg'
-import raw_switzerland6 from '../../resources/Images/sample6.jpg'
+import raw_switzerland1 from '../../resources/Images/CS_1.jpg'
+import raw_switzerland2 from '../../resources/Images/CS_2.jpg'
+import raw_switzerland3 from '../../resources/Images/CS_3.jpg'
+import raw_switzerland4 from '../../resources/Images/CS_4.jpg'
+import raw_switzerland5 from '../../resources/Images/CS_1.jpg'
+import raw_switzerland6 from '../../resources/Images/CS_1.jpg'
 
 
 import raw_sample1 from '../../resources/Images/sample1.jpg'
