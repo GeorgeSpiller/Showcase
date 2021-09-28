@@ -11,7 +11,7 @@ import {
 export default function PersonalDevelopment() {
     
     return(
-        <Suspense fallback={<div className="spinner"><div className="spinner-border"></div></div>}>
+        <Suspense fallback={<div style={{backgroundColor: "#636363"}} className="spinner"><div className="spinner-border"></div></div>}>
 
         <div>
         <div className="PDevcol">
