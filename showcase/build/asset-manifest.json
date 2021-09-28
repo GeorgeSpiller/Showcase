@@ -1,22 +1,40 @@
 {
   "files": {
-    "main.css": "/static/css/main.50b915a5.chunk.css",
-    "main.js": "/static/js/main.da5e28e8.chunk.js",
-    "main.js.map": "/static/js/main.da5e28e8.chunk.js.map",
+    "main.css": "/static/css/main.97d61983.chunk.css",
+    "main.js": "/static/js/main.3f19dc22.chunk.js",
+    "main.js.map": "/static/js/main.3f19dc22.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fca6b5e4.js",
     "runtime-main.js.map": "/static/js/runtime-main.fca6b5e4.js.map",
-    "static/js/2.71d39b6f.chunk.js": "/static/js/2.71d39b6f.chunk.js",
-    "static/js/2.71d39b6f.chunk.js.map": "/static/js/2.71d39b6f.chunk.js.map",
+    "static/js/2.31c3480f.chunk.js": "/static/js/2.31c3480f.chunk.js",
+    "static/js/2.31c3480f.chunk.js.map": "/static/js/2.31c3480f.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.50b915a5.chunk.css.map": "/static/css/main.50b915a5.chunk.css.map",
-    "static/js/2.71d39b6f.chunk.js.LICENSE.txt": "/static/js/2.71d39b6f.chunk.js.LICENSE.txt",
+    "static/css/main.97d61983.chunk.css.map": "/static/css/main.97d61983.chunk.css.map",
+    "static/js/2.31c3480f.chunk.js.LICENSE.txt": "/static/js/2.31c3480f.chunk.js.LICENSE.txt",
+    "static/media/Madagascar_(1).95f3ac5c.jpg": "/static/media/Madagascar_(1).95f3ac5c.jpg",
+    "static/media/Madagascar_(2).cb841abe.jpg": "/static/media/Madagascar_(2).cb841abe.jpg",
+    "static/media/Madagascar_(3).22e270aa.jpg": "/static/media/Madagascar_(3).22e270aa.jpg",
+    "static/media/Madagascar_(4).977d4544.jpg": "/static/media/Madagascar_(4).977d4544.jpg",
+    "static/media/Madagascar_(5).3a5a42b5.jpg": "/static/media/Madagascar_(5).3a5a42b5.jpg",
+    "static/media/Madagascar_(6).9dff81ea.jpg": "/static/media/Madagascar_(6).9dff81ea.jpg",
     "static/media/MengerSponge.440c7b68.glb": "/static/media/MengerSponge.440c7b68.glb",
-    "static/media/index.css": "/static/media/layered-peaks-haikei.8ae32d12.svg"
+    "static/media/SouthAfrica1.06fe0493.jpg": "/static/media/SouthAfrica1.06fe0493.jpg",
+    "static/media/SouthAfrica2.bb630c7d.jpg": "/static/media/SouthAfrica2.bb630c7d.jpg",
+    "static/media/SouthAfrica3.70ea491d.jpg": "/static/media/SouthAfrica3.70ea491d.jpg",
+    "static/media/SouthAfrica4.dd6423f6.jpg": "/static/media/SouthAfrica4.dd6423f6.jpg",
+    "static/media/SouthAfrica5.a21abc14.png": "/static/media/SouthAfrica5.a21abc14.png",
+    "static/media/SouthAfrica6.5432057e.jpg": "/static/media/SouthAfrica6.5432057e.jpg",
+    "static/media/index.css": "/static/media/stacked-steps-haikei.7f1aa258.svg",
+    "static/media/sample1.b663615a.jpg": "/static/media/sample1.b663615a.jpg",
+    "static/media/sample2.22aebe2f.jpg": "/static/media/sample2.22aebe2f.jpg",
+    "static/media/sample3.8763675a.jpg": "/static/media/sample3.8763675a.jpg",
+    "static/media/sample4.1b9cffe1.jpg": "/static/media/sample4.1b9cffe1.jpg",
+    "static/media/sample5.773598b7.jpg": "/static/media/sample5.773598b7.jpg",
+    "static/media/sample6.b5e071a1.jpg": "/static/media/sample6.b5e071a1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.fca6b5e4.js",
-    "static/js/2.71d39b6f.chunk.js",
-    "static/css/main.50b915a5.chunk.css",
-    "static/js/main.da5e28e8.chunk.js"
+    "static/js/2.31c3480f.chunk.js",
+    "static/css/main.97d61983.chunk.css",
+    "static/js/main.3f19dc22.chunk.js"
   ]
 }
