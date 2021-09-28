@@ -34,10 +34,6 @@ import raw_sample5 from '../../resources/Images/sample5.jpg'
 import raw_sample6 from '../../resources/Images/sample6.jpg'
 
 
-
-
-
-
 export default function CubeMultiMaterial({materialNumber}) {
     const ref = useRef()
     const MAX_PHOTO_NUMBER = 5;
@@ -91,7 +87,6 @@ export default function CubeMultiMaterial({materialNumber}) {
         useLoader(THREE.TextureLoader, raw_sample5),
         useLoader(THREE.TextureLoader, raw_sample6),
     ]
-
     
     const madagascar_materialArray = [
         useLoader(THREE.TextureLoader, raw_madagascar1),
@@ -101,7 +96,6 @@ export default function CubeMultiMaterial({materialNumber}) {
         useLoader(THREE.TextureLoader, raw_madagascar5),
         useLoader(THREE.TextureLoader, raw_madagascar6),
     ]
-
     
     const southAfrica_materialArray = [
         useLoader(THREE.TextureLoader, raw_southAfrica1),
@@ -110,6 +104,15 @@ export default function CubeMultiMaterial({materialNumber}) {
         useLoader(THREE.TextureLoader, raw_southAfrica4),
         useLoader(THREE.TextureLoader, raw_southAfrica5),
         useLoader(THREE.TextureLoader, raw_southAfrica6),
+    ]
+     
+    const switzerland_materialArray = [
+        useLoader(THREE.TextureLoader, raw_switzerland1),
+        useLoader(THREE.TextureLoader, raw_switzerland2),
+        useLoader(THREE.TextureLoader, raw_switzerland3),
+        useLoader(THREE.TextureLoader, raw_switzerland4),
+        useLoader(THREE.TextureLoader, raw_switzerland5),
+        useLoader(THREE.TextureLoader, raw_switzerland6),
     ]
 
     switch(materialNumber) {
@@ -168,12 +171,12 @@ export default function CubeMultiMaterial({materialNumber}) {
                        }
                     }} >
                         <boxGeometry attach="geometry" args={[1, 1, 1]} />
-                        <meshStandardMaterial map={ SAMPLE_materialArray[0] } attachArray="material"  />
-                        <meshStandardMaterial map={ SAMPLE_materialArray[1] } attachArray="material"  />
-                        <meshStandardMaterial map={ SAMPLE_materialArray[2] } attachArray="material"  />
-                        <meshStandardMaterial map={ SAMPLE_materialArray[3] } attachArray="material"  />
-                        <meshStandardMaterial map={ SAMPLE_materialArray[4] } attachArray="material"  />
-                        <meshStandardMaterial map={ SAMPLE_materialArray[5] } attachArray="material"  />
+                        <meshStandardMaterial map={ switzerland_materialArray[0] } attachArray="material"  />
+                        <meshStandardMaterial map={ switzerland_materialArray[1] } attachArray="material"  />
+                        <meshStandardMaterial map={ switzerland_materialArray[2] } attachArray="material"  />
+                        <meshStandardMaterial map={ switzerland_materialArray[3] } attachArray="material"  />
+                        <meshStandardMaterial map={ switzerland_materialArray[4] } attachArray="material"  />
+                        <meshStandardMaterial map={ switzerland_materialArray[5] } attachArray="material"  />
                 </mesh>
             )
         default:

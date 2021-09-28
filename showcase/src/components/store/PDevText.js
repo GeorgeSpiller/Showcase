@@ -15,9 +15,12 @@ const PDevtwo = {
 }
 
 const PDevthree = {
-    title: "Torgon, Switzerland",
-    location: "",
-    text_p1: "Overseeing and devising activities for international students aged from 7 – 11, at an outdoor activity camp, Camp Suisse; assisting during language lessons, excursions and camping in the Alps. "
+    title: "International Camp Swiss",
+    location: "Torgon, Switzerland",
+    text_p1: "For multiple summers I volunteered helping out at International Camp Swiss, a summer camp dedicated to providing unforgettable experiences to children from around the globe. I helped manage a variety of indoor and outdoor activities, both on the campsite and trips away to Geneva. These activities included: indoor and outdoor climbing (bouldering, rock climbs), trips to Geneva (Lake Geneva, Gruyeres Chocolate Factories), overnight hikes to a campsite in the Alps, mountain biking, archery, ghyll scrambling, and many many more.",
+    text_p2: "Alongside the many different activities that the camp provides, they also help improve the language skills of the camplers. Specifically, I assisted teaching German to beginner and intermediate groups.",
+    text_p3: ""
+
 }
 
 const SAMPLETEXT = {

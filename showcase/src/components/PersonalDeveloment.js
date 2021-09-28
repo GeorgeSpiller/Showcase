@@ -25,7 +25,7 @@ export default function PersonalDevelopment() {
             </div>
             <div className="PDevrow">
                 <PDEVCanvasSection materialNumber={2}/>
-                <PDevTextSection title={PDevthree.title} location={PDevthree.location} paragraph1={PDevthree.text_p1} paragraph2={PDevthree.text_p2} paragraph3={PDevthree.text_p3}/>
+                <PDevTextSection title={PDevthree.title} location={PDevthree.location} paragraph1={PDevthree.text_p1} paragraph2={PDevthree.text_p2} paragraph3={PDevthree.text_p3} link={"https://www.campsuisse.com/summer-camp/"}/>
             </div>
         </div>
         </div>
